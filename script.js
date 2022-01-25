@@ -17,6 +17,7 @@ const loginName = select("#login-name");
 const loginPassword = select("#login-password");
 const loginMessage = select("#login-message");
 const welcomeName = select("#user");
+const profileName = select("#profile-name");
 let passed = false;
 let data;
 // functions
@@ -180,6 +181,8 @@ function render(data) {
   const [userDetails] = data;
   const { name, secondName, user, email } = userDetails;
   const profileBody = document.querySelector(".profile-body");
+  profileName.textContent = `${user}`;
+
   profileBody.innerHTML = `
     <div>
               <i class="bi bi-person-check-fill"></i>

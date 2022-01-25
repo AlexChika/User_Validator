@@ -12,7 +12,7 @@ body {
 .login-con,
 .profile-con {
   position: fixed;
-  min-height: 100vh;
+  height: 100vh;
   background: white;
   top: 0;
   left: 0;
@@ -66,7 +66,7 @@ body {
 }
 /* form */
 .form-container {
-  padding: 20px;
+  padding: 5px 20px;
   box-shadow: 1px 1px 10px grey;
   border-radius: 10px;
   background: white;
@@ -142,6 +142,7 @@ small {
   color: white;
 }
 /* signup-options */
+
 .signup-option span {
   cursor: pointer;
   color: purple;
@@ -334,7 +335,6 @@ small {
   height: 100%;
   border-radius: 50%;
   object-fit: center;
-  /* background-position: ; */
 }
 .box h2 {
   text-align: center;
@@ -390,5 +390,11 @@ small {
   }
   .box {
     width: 95%;
+  }
+  .profile-handles {
+    gap: 1.5em;
+  }
+  .profile-body div * {
+    font-size: 17px;
   }
 }
