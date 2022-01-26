@@ -1,0 +1,19 @@
+{
+  "name": "form-validator",
+  "version": "1.0.0",
+  "description": "\"A mini user validation app that logs user into a profile via data stored with localstorage api\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexChika/User_Validator.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexChika/User_Validator/issues"
+  },
+  "homepage": "https://github.com/AlexChika/User_Validator#readme"
+}
