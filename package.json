@@ -2,7 +2,7 @@
   "name": "form-validator",
   "version": "1.0.0",
   "description": "\"A mini user validation app that logs user into a profile via data stored with localstorage api\"",
-  "main": "script.js",
+  "main": "index.html",
   "keywords": [
     "form",
     "validator",
